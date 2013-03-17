@@ -1,0 +1,316 @@
+.float_left {
+	float: left;
+}
+
+.float_right {
+	float: right;
+}
+
+.box{
+    width: 80%;
+    margin: 0px auto;
+}
+
+.box2{
+    border-style: solid;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+    display: table;
+}
+
+.box3{
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+.title2 {
+	text-align: left;
+	color: #EEEEEE;
+	padding: 0px;
+	background-color: #246ed7;
+	font: x-large "Lucida Grande", Lucida, Verdana, sans-serif;
+	clear: both;
+	padding: 5px;
+}
+
+/* Styles for devices */
+
+/* this class is used by all devices to make sure our 
+   javascript can always locate any device, and to hold any 
+   shared styles. Essentially this lets devices have custom
+   css styles, but not break any callbacks.
+   */
+.device{
+	background-color: #FFFFFF;
+	-moz-box-shadow: 4px 4px 3px #bbbbbb;
+	-webkit-box-shadow: 4px 4px 3px #bbbbbb;
+	box-shadow: 4px 4px 3px #bbbbbb;
+	float: left;
+	margin: 5px;
+	border-style: solid;
+	border-radius: 1px;
+	border-width: 2px;
+}
+
+.small_device{
+	width: 200px;
+	height: 100px;
+}
+
+.denon_zone{
+	width: 550px;
+	height: 140px;
+}
+
+.devname{
+	color: #ffffff;
+	background-color: #246ed7;
+	text-align: left;
+	font: medium "Lucida Grande", Lucida, Verdana, sans-serif;
+	/* this gives me ellipsis 
+	   for long strings */
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-bottom: 4px;
+}
+
+.sec_sensor{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+	float: left;
+    width: 40px;
+    height: 40px;
+}
+
+.trip{
+    background-color: lightred;
+}
+
+.clear{
+    background-color: #0bde0b;
+}
+
+/* Styles for rooms */
+
+.room_box{
+    border-style: solid;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+    display: table;
+}
+
+
+.room_name {
+	text-align: left;
+	color: #EEEEEE;
+	padding: 4px;
+	background-color: #246ed7;
+	font: large "Lucida Grande", Lucida, Verdana, sans-serif;
+	clear: both;
+}
+
+/* End Rooms */
+
+.title {
+	text-align: left;
+	color: #EEEEEE;
+	padding-bottom: 10px;
+	background-color: #767676;
+	font: 24pt garamond;
+}
+
+.heading {
+	text-align: left;
+	font-family: garamond;
+	font-size: 18pt;
+	color: #EEEEEE;
+	padding-top: 1px;
+	padding-bottom: 10px;
+}
+
+.heading2 {
+	text-align: left;
+	font-family: garamond;
+	font-size: 16pt;
+	color: #EEEEEE;
+	min-width: 300px;
+}
+
+.heading3 {
+	text-align: left;
+	font: 12pt "Lucida Grande", Lucida, Verdana, sans-serif;
+	color: #000000;
+	min-width: 100px;
+	border: 10px;
+	margin: 3px;
+	padding: 5px;
+	float: left;
+}
+
+
+.slider_box{
+	float: left;
+	margin-left: 5px;
+	width: 190px;
+}
+
+.slider {
+    margin: 15px;
+}
+
+.source {
+	font: 12pt "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+.zone {
+	position:relative;
+	border-color: #AAAAAA;
+	border-radius: 3px;
+	border-style: solid;
+}
+
+.option {
+	position: absolute;
+	left: 100px;
+	text-align: left;
+}
+
+.option_line{
+	padding-bottom: 4px;
+	padding-top: 4px;
+}
+
+.button2 {
+	text-decoration: none;
+	color: #222222;
+ 	text-align: center;
+ 	background-color: #dbe7f9;
+	border: 10px;
+	margin: 3px;
+	padding: 5px;
+	border-radius: 2px;
+	font: normal 12pt "Lucida Grande", Lucida, Verdana, sans-serif;
+	float: left;
+}
+
+.button2:active, .button2:hover{
+    color: #ffffff;
+    background-color: #246ed7;
+}
+
+.button {
+    background-color: #dbe7f9;
+	color: #222222;
+	text-decoration: none;
+ 	text-align: center;
+	border: 10px;
+	width: 80px;
+	margin: 3px;
+	padding: 5px;
+	border-radius: 2px;
+	font: normal 12pt "Lucida Grande", Lucida, Verdana, sans-serif;
+	float: left;
+}
+
+.button_small{
+	width: 50px;
+}
+ 	     
+.button:active, .button:hover, .button.down{
+    color: #ffffff;
+    background-color: #246ed7;
+}
+
+a.nav_bar, a.nav_bar:visited {
+	font-family: garamond;
+	font-size: 14pt;
+	font-weight: normal;
+	text-decoration: none;
+	color: #222222;
+ 	text-align: left;
+ 	background-color: #EEEEEE;
+ 	border: 10px;
+ 	width: 100px;
+ 	padding: 2px;
+ 	border-radius: 2px;
+}
+ 	     
+a.nav_bar:active, a.nav_bar:hover, a.button_on {
+	font-family: garamond;
+	font-family: garamond;
+    font-size: 14pt;
+    font-weight: normal;
+	text-decoration: none;
+	color: #222222;
+    text-align: left;
+    background-color: #AAAAAA;
+    border: 10px;
+    width: 100px;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.navBar{
+width: 750px;
+height: 100px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.pageTitle{
+margin: 10px;
+clear: both;
+}
+
+.navElement{
+text-align: center;
+float: left;
+background-color: #CCCCCC;
+padding: 5px;
+border: 5px;
+}
+
+.mainBox {
+width: 800px;
+background-color: #666666;
+height: 100%;
+margin-top: 10px;
+margin-left:auto;
+margin-right:auto;
+border-radius: 4px;
+padding: 5px;
+text-align: left;
+}
+        
+body.main{
+background-color: #CCCCCC;
+text-align: center;
+}
+
+.body {
+font-family: garamond;
+font-size: 11pt;
+color: #333333;
+text-align: left;
+}
+
+.clearboth { clear: both; }
+
+div#footer {
+	height: 30px;
+	color: #ffffff;
+	background-color: #246ed7;
+	position: fixed;
+	bottom: 0;
+	border-width: 1px;
+	width: 100%;
+	z-index:3;
+}
+ 	     

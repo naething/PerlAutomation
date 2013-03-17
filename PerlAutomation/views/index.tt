@@ -1,0 +1,15 @@
+<div class="box2">
+<div class="title2">My House</div>
+</div>
+
+<% sortedKEYS = rooms.sort -%>
+<%FOREACH r IN sortedKEYS -%>
+<div class="room_box">
+<div class="room_name"><% r %></div>
+<%FOREACH dev IN rooms.$r -%>
+<div class="device" id="<% dev.key %>"></div>
+<%END-%>
+</div>
+<%END-%>
+
+<br class="clearboth" />
